@@ -1,0 +1,75 @@
+header {
+    height: 100vh;
+    padding-top: 5rem;
+    overflow: hidden;
+    /* background: linear-gradient(#5d00af, #45aadd, transparent); */
+   
+}
+
+.header__contianer {
+    text-align: center;
+    width: 90% !important;
+    height: 100%;
+    position: relative;
+    /* background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.80); */
+
+}
+
+/* ||CTA||  */
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* ||social media|| */
+.header__social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    /* left: 2rem; */
+    bottom: 3rem;
+}
+
+.header__social::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* || ME ||  */
+.me {
+    /* background: linear-gradient(#5d00af, #45aadd, transparent); */
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    justify-content: center;
+    justify-items: center;
+    backdrop-filter: blur(25rem);
+}
+
+/* .me img {
+   
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+} */
