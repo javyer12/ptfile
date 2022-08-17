@@ -37,16 +37,16 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    /* background: linear-gradient(#5d00af, #45aadd, transparent);  */
-
-    background-image: url("./material/bg-texture.png");
+    background-color: black;
+    /* background: linear-gradient(#000000, #66696b, transparent);  */
+    /* background-image: url("./material/bg-texture.png"); */
 }
 
 /* "https://p4.wallpaperbetter.com/wallpaper/165/975/632/line-dark-light-vertical-wallpaper-preview.jpg" */
 
 /* //////////////////////////////////////////////////////////////// */
 
-.contianer {
+.container {
     width: var(--container-width-lg);
     margin: 0 auto;
 }
@@ -66,7 +66,7 @@ h1 {
 
 section {
     margin-top: 8rem;
-    ;
+    height: 100vh;
 }
 
 section>h2,
@@ -131,7 +131,7 @@ img {
     }
 }
 /* || media queries (SD) */
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
     }

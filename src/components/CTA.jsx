@@ -15,8 +15,7 @@ const CTA = () => {
         Watch my CV
       </a>
       <a href={cv} download className="btn">
-        {" "}
-        Download my CV{" "}
+        Download my CV
       </a>
     </div>
   );

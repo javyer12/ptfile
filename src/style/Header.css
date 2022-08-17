@@ -3,7 +3,7 @@ header {
     padding-top: 5rem;
     overflow: hidden;
     /* background: linear-gradient(#5d00af, #45aadd, transparent); */
-   
+
 }
 
 .header__contianer {
@@ -34,10 +34,17 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 0.8rem;
-    position: absolute;
-    left: 0;
+    position: fixed;
+    left: 5%;
     /* left: 2rem; */
     bottom: 3rem;
+    z-index: 2;
+    background: rgba(157, 155, 155, 0.087);
+    width: max-content;
+    padding: 1rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+
 }
 
 .header__social::after {
@@ -49,7 +56,7 @@ header {
 
 /* || ME ||  */
 .me {
-    /* background: linear-gradient(#5d00af, #45aadd, transparent); */
+    /* background: linear-gradient(#5d00af, #c202a8, transparent); */
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
     height: 30rem;
@@ -73,3 +80,49 @@ header {
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.30);
 } */
+
+/* ||||||||||||Scroll down ||||||||||//////////////////////////////////////////////////////////////  */
+.scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+/* media queries   */
+@media screen and (max-width:700px) {
+    .cta {
+        margin: 1rem;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .cta a {
+        font-size: .5rem;
+        text-align: center;
+    }
+    .me {
+        background: linear-gradient(#5d00af, #daaeee, #760467, transparent);
+        /* background: linear-gradient(var(--color-primary), transparent); */
+        width: 15rem;
+        height: 18rem;
+        position: absolute;
+        left: calc(50% - 8rem);
+        margin-top: 2rem;
+        border-radius: 12rem 12rem 0 0;
+        overflow: hidden;
+        padding: 3.5rem 1.5rem 1.5rem 1.5rem;
+        backdrop-filter: blur(25rem);
+    }
+    .header__social {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+        position: fixed;
+        bottom: 29rem;
+        z-index: 2;
+    }
+}
