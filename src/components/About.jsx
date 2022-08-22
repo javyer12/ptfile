@@ -22,10 +22,15 @@ const About = () => {
               <h5>Experience</h5>
               <small>1+ Years Working</small>
             </article>
-            <article className="about__card">
+            <article className="about__card hidded_class">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
               <small>200+ Worldwide</small>
+            </article>
+            <article className="about__card hidded_class">
+              <FiUsers className="about__icon" />
+              <h5>Personal Brand</h5>
+              <small>Physoft</small>
             </article>
             <article className="about__card">
               <IoMdDoneAll className="about__icon" />
@@ -34,14 +39,11 @@ const About = () => {
             </article>
           </div>
           <p>
-            das lorean lorean lorean lorean lorean lorean lorean lorean lord der
-            hist lorean lorean lorean lorean lorean lorean lorean lorean lorean
-            lorean lorean lorean lorean lorean lorean lorean lorean lorean
-            lorean lorean lorean lorean lorean lorean lorean
+          I am a person who loves evolution and human and <span className="highlight__word">technological development</span>, lover of new technologies that help us build a <span className="highlight__word">digital world </span>in the near future, I am a frontend dev-junior with <span className="highlight__word">JavaScript, React js</span> others, passionate about it sports and the 7 arts.
           </p>
-          <button className="btn btn-primary" href="#contact">
+          <a className="btn btn-primary" href="#contact">
             Let's Talk
-          </button>
+          </a>
         </div>
       </div>
     </section>

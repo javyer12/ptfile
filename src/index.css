@@ -65,12 +65,15 @@ h1 {
 }
 
 section {
-    margin-top: 8rem;
-    height: 100vh;
+    margin-top: 50%;
+    height: max-content;
+    border-top : solid 1.5px rgba(240,240,240, 0.4);
+    border-top-style:dashed;
 }
 
 section>h2,
 section>h5 {
+    margin-top: 1%;
     text-align: center;
     color: var(--color-light);
 }
