@@ -50,11 +50,20 @@
         grid-template-columns: 1fr;
     }
     .experience__container > div {
-        width: 90%;
+        width: 100%;
         padding: 2rem;
-        margin: 0 auto;
+        /* margin: 0 auto; */
     }
     .experience__content {
         padding:  1rem;
+    }
+    h4{
+        font-size: 1rem;
+    }
+    .experience__content {
+        gap: 1.2rem;
+    }
+    .ex-icon {
+        font-size: .8rem;
     }
 }

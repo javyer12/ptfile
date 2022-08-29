@@ -43,7 +43,6 @@ footer {
     width: 65%;
     height:50%;
     margin-top: 30%;
-    border-radius: 50%;
 }
 /* ////////////////////////////////  ---------------------------MEDIAS QUERIES (MEDIUN DEVICES)------------------------------------ ////////////////////  */
 @media screen and (max-width: 1024px) {
