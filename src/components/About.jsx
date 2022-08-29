@@ -1,3 +1,4 @@
+import React from 'react';
 import "../style/About.css";
 import myphoto from "../material/portfolio2.jpg";
 import { IoIosCodeWorking } from "react-icons/io";
@@ -39,7 +40,7 @@ const About = () => {
             </article>
           </div>
           <p>
-          I am a person who loves evolution and human and <span className="highlight__word">technological development</span>, lover of new technologies that help us build a <span className="highlight__word">digital world </span>in the near future, I am a frontend dev-junior with <span className="highlight__word">JavaScript, React js</span> others, passionate about it sports and the 7 arts.
+            I am a person who loves evolution and human and <span className="highlight__word">technological development</span>, lover of new technologies that help us build a <span className="highlight__word">digital world </span>in the near future, I am a frontend dev-junior with <span className="highlight__word">JavaScript, React js</span> others, passionate about it sports and the 7 arts.
           </p>
           <a className="btn btn-primary" href="#contact">
             Let's Talk

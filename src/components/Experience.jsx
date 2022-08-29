@@ -1,3 +1,4 @@
+import React from 'react';
 import { BsPatchCheckFill } from "react-icons/bs";
 import "../style/experience.css";
 
@@ -11,7 +12,7 @@ const Experience = () => {
           <h3>Frontend Developmet</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <BsPatchCheckFill  className="ex-icon"/>
+              <BsPatchCheckFill className="ex-icon" />
               <div>
                 <h4>HTML5</h4>
                 <small className="text-light">Experienced</small>
@@ -25,28 +26,28 @@ const Experience = () => {
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="ex-icon"/>
+              <BsPatchCheckFill className="ex-icon" />
               <div>
                 <h4>JavaScript</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="ex-icon"/>
+              <BsPatchCheckFill className="ex-icon" />
               <div>
-              <h4>React js</h4>
+                <h4>React js</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="ex-icon"/>
+              <BsPatchCheckFill className="ex-icon" />
               <div>
                 <h4>Tailwind</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="ex-icon"/>
+              <BsPatchCheckFill className="ex-icon" />
               <div>
                 <h4>Bootstrap</h4>
                 <small className="text-light">Experienced</small>
@@ -59,28 +60,28 @@ const Experience = () => {
           <h3>Backend Developmet</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <BsPatchCheckFill className="ex-icon"/>
+              <BsPatchCheckFill className="ex-icon" />
               <div>
                 <h4>Node.js  || Express.js ||</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="ex-icon"/>
+              <BsPatchCheckFill className="ex-icon" />
               <div>
                 <h4>PostgreSQL</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="ex-icon"/>
+              <BsPatchCheckFill className="ex-icon" />
               <div>
                 <h4>C# || Net Core ||</h4>
                 <small className="text-light">Intermidate</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="ex-icon"/>
+              <BsPatchCheckFill className="ex-icon" />
               <div>
                 <h4> Python</h4>
                 <small className="text-light">Experienced</small>
@@ -94,7 +95,7 @@ const Experience = () => {
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="ex-icon"/>
+              <BsPatchCheckFill className="ex-icon" />
               <div>
                 <h4>Microsoft Azure</h4>
                 <small className="text-light">Basic</small>

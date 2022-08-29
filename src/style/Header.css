@@ -54,20 +54,54 @@ header {
 }
 
 /* || ME ||  */
-.me {
-    /* background: linear-gradient(#5d00af, #c202a8, transparent); */
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
+/* .me {
+    background: transparent;
+     background: linear-gradient(var(--color-primary), transparent); 
+    width: 20rem;
+    height: 40rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
+    border-radius: 25rem 25rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    padding: 2rem 0rem .1rem 0rem;
     justify-content: center;
     justify-items: center;
-    backdrop-filter: blur(25rem);
+    border: 1px solid var(--color-white);
+    filter: saturate(150%);
+    box-shadow: 0px 0px 10px 10px var(--color-primary); }
+
+.me:hover {
+    background: linear-gradient(#031746, #4695db, #72b0e6,  #b7b5b5, transparent);
+} */
+
+/* .me {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 20rem;
+    height: 40rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 25rem 25rem 0 0;
+    overflow: hidden;
+    padding: 2rem 0rem .1rem 0rem;
+    justify-content: center;
+    justify-items: center;
+    border: 1px solid var(--color-white);
+    filter: saturate(150%);
+} */
+.me {
+    width: 24rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius:50%;
+    margin: 2rem auto 1rem;
+    border: 0.4rem solid var(--color-light);
+}
+.me img {
+    width: 90%;
+    height: 100%;
+    margin: auto;
 }
 
 /* .me img {
@@ -93,6 +127,9 @@ header {
 
 /* media queries   */
 @media screen and (max-width:700px) {
+    header {
+        height: 100vh;
+    }
     .cta {
         margin: 1rem;
         display: flex;
@@ -109,16 +146,19 @@ header {
         /* background: linear-gradient(#5d00af, #daaeee, #1a31ff, transparent); */
         background: linear-gradient(var(--color-primary), transparent);
         width: 15rem;
-        height: 18rem;
+        height: 22rem;
         position: absolute;
         left: calc(50% - 8rem);
         margin-top: 2rem;
         border-radius: 12rem 12rem 0 0;
         overflow: hidden;
-        padding: 3.5rem 1.5rem 1.5rem 1.5rem;
+        /* padding: 3.5rem 1.5rem 1.5rem 1.5rem; */
         backdrop-filter: blur(25rem);
     }
-
+    .me img {
+        width: 100%;
+        height: 100%;
+    }
     .header__social {
         width: 12%;
         font-size: 85%;

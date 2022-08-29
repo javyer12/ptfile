@@ -1,3 +1,4 @@
+import React from 'react';
 import "../style/Portfolio.css";
 import portfolio1 from "../material/portfolio1.jpg";
 import portfolio2 from "../material/portfolio2.jpg";
@@ -10,7 +11,7 @@ const portfolios = [
   {
     id: 1,
     portfolioName: " Name of Portfolio",
-    image: portfolio1 ,
+    image: portfolio1,
     githubLink: "https://github.com/javier12",
     demoLink: "https://github.com/",
   },
@@ -38,7 +39,7 @@ const portfolios = [
   {
     id: 5,
     portfolioName: " Name of Portfolio",
-    image:portfolio5,
+    image: portfolio5,
     githubLink: "https://github.com/javier12",
     demoLink: "https://github.com/",
   },
@@ -70,14 +71,14 @@ const Portfolio = () => {
                 href={item.demoLink}
                 className="btn btn-primary"
                 target="_blank"
-                rel="noreferrer"
+                rel=" noopener noreferrer"
               >
                 Demo Project
               </a>
             </div>
           </article>
         ))}
-       
+
       </div>
     </section>
   );

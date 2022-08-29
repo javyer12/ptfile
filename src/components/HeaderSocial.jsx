@@ -9,15 +9,15 @@ const HeaderSocial = () => {
     <div className="header__social">
       <a
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         href="https://www.linkedin.com/in/francisco-javier-murillo-guillen-6302bb203/"
       >
         <BsLinkedin />
       </a>
-      <a target="_blank" rel="noreferrer" href="https://github.com/javyer12">
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/javyer12">
         <FaGithub />
       </a>
-      <a target="_blank" rel="noreferrer" href="https://twitter.com/FBollys">
+      <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/FBollys">
         <BsTwitter />
       </a>
     </div>

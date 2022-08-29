@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from "react";
 import "../style/Nav.css";
 import { RiHomeHeartFill } from "react-icons/ri";
@@ -7,7 +8,8 @@ import { FcServices } from "react-icons/fc";
 import { BiMessageRoundedCheck } from "react-icons/bi";
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState("#");
+  const [ activeNav, setActiveNav ] = useState("#");
+
   return (
     <nav>
       <a
