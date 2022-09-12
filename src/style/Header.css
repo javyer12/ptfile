@@ -91,7 +91,7 @@ header {
     filter: saturate(150%);
 } */
 .me {
-    width: 24rem;
+    width: 20rem;
     aspect-ratio: 1/1;
     overflow: hidden;
     border-radius:50%;
@@ -123,6 +123,7 @@ header {
     font-weight: 300;
     font-size: 0.9rem;
     z-index: 3;
+    text-decoration: none;
 }
 
 /* media queries   */
@@ -170,8 +171,9 @@ header {
         max-height: fit-content;
     }
     .scroll__down {
-        position: absolute;
-        right: -10%;
+        /* position: absolute;
+        right: -10%; */
+        visibility: hidden;
     }
 
 }

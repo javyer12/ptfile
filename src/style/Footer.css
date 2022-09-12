@@ -50,7 +50,7 @@ footer {
 }
 
 /* ////////////////////////////////  ---------------------------MEDIAS QUERIES (SMALL DEVICES)------------------------------------ ////////////////////  */
-@media screen and (max-width: 624px) {
+@media screen and (max-width: 724px) {
     footer {
         display:grid;
         grid-template-columns:  1fr;
@@ -58,16 +58,21 @@ footer {
     padding-top:1rem;
 
     }
+ 
     .center__footer{
         gap: 2rem;
     }
     .center__footer li a:hover{
        color: var(--color-white);
     }
+    .right__footer {
+        height: 250px
+    }
+
     .right__footer img {
         width: 45%;
-        height:100%;
-        border-radius: 70%;
+        height: 100%;
+        /* border-radius: 0%; */
         margin:auto;
         padding-bottom: 1rem;
     }

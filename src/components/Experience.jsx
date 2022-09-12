@@ -14,14 +14,14 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="ex-icon" />
               <div>
-                <h4>HTML5</h4>
+                <h5>HTML5</h5>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="ex-icon" />
               <div>
-                <h4>CSS3</h4>
+                <h5>CSS3</h5>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -42,14 +42,14 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="ex-icon" />
               <div>
-                <h4>Tailwind</h4>
+                <h5>Tailwind</h5>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="ex-icon" />
               <div>
-                <h4>Bootstrap</h4>
+                <h5>Bootstrap</h5>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -62,42 +62,42 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="ex-icon" />
               <div>
-                <h4>Node.js  || Express.js ||</h4>
+                <h5>Node.js  || Express.js ||</h5>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="ex-icon" />
               <div>
-                <h4>PostgreSQL</h4>
+                <h5>PostgreSQL</h5>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="ex-icon" />
               <div>
-                <h4>C# || Net Core ||</h4>
+                <h5>C# || Net Core ||</h5>
                 <small className="text-light">Intermidate</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="ex-icon" />
               <div>
-                <h4> Python</h4>
+                <h5> Python</h5>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="ex-icon" />
               <div>
-                <h4>Typescript</h4>
+                <h5>Typescript</h5>
                 <small className="text-light">Intermidate</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="ex-icon" />
               <div>
-                <h4>Microsoft Azure</h4>
+                <h6>Microsoft Azure</h6>
                 <small className="text-light">Basic</small>
               </div>
             </article>

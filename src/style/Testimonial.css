@@ -1,6 +1,7 @@
 .testimonials__container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
 }
 .client__avatar {
     width: 4rem;
@@ -13,7 +14,7 @@
 .testimonial {
 
     text-align: center;
-    padding: 2rem;
+    padding: 1.3rem;
     border-radius: 2rem;
     user-select: none;
     /* width: 70%;
@@ -26,15 +27,16 @@
     color: var(--color-light);
     font-weight: 300;
     display: block;
-    width: 80%;
+    width: 100%;
     margin: 0.8rem auto 0;
+    text-align: justify;
 }
 
 /* //////// MEDIAS QUERIES (MEDIUN DEVICES) //////////  */
 @media screen and (max-width: 1024px) {
 }
 /* //////// MEDIAS QUERIES (SMALL DEVICES) //////////  */
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 724px) {
     .testimonials__container {
         display: grid;
         grid-template-columns: 1fr;
