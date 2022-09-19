@@ -9,20 +9,34 @@
     list-style: none;
     text-decoration: none;
 }
-
 :root {
     --color-bg: #1f1f38;
     --color-bg-variant: #2c2c6c;
     /* --color-bg-variant: #aeee89; */
-    --color-primary: #4db5ff;
-    --btn-primary: #4db5ff;
+    --color-primary: #0000007b;
+    --btn-primary: #08dff7;
+    --underline-color: #0033ff;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
-    --color-white: #fff;
+    --color-white: rgb(0, 0, 0);
+    --white: white;
     --color-light: rgba(255, 255, 255, 0.6);
     --transition: all 400ms ease-in-out;
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-ms: 90%;
+    --titles-gray: #d5d5cc;
+    /* Escala de grises  */
+    --gray-20: #dcdcdc;
+    --gray-40: #d3d3d3;
+    --gray-60: #c9c9c9;
+    --gray-80: #bdbdbd;
+    --gray-100: #a7a7a7;
+    /* escala de azules   */
+    --blue-20: #2859ad;
+    --blue-40: #004091;
+    --blue-60: #002c74;
+    --blue-80: #001958;
+    --blu-100: #00003d;
 }
 
 html {
@@ -38,9 +52,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-color: black;
-    /* background: linear-gradient(#000000, #66696b, transparent);  */
-    /* background-image: url("./material/bg-texture.png"); */
+    background-color: rgb(227, 227, 227);
 }
 
 /* "https://p4.wallpaperbetter.com/wallpaper/165/975/632/line-dark-light-vertical-wallpaper-preview.jpg" */
@@ -62,55 +74,58 @@ h6 {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2.5rem; 
 }
-
+h3 {
+    color: var(--gray-40)
+}
 section {
-    margin-top: 50%;
+    margin: 6rem;
+    padding:1.5rem;
     height: max-content;
-    border-top : solid 1.5px rgba(240,240,240, 0.4);
     border-top-style:dashed;
+    background-color: white;
+    padding-bottom: 3rem;
 }
 
 section>h2,
 section>h5 {
     margin-top: 1%;
     text-align: center;
-    color: var(--color-light);
+    color: var(--gray-40);
 }
 
 section>h2 {
-    color: var(--color-primary);
+    color: var(--color-white);
     margin-bottom: 3rem;
 }
 
-.text-light {
-    color: var(--color-light);
-}
+/* .text-light {
+    color: var(--color-white);
+} */
 
 a {
-    color: var(--color-primary);
+    color: var(--color-white);
     transition: var(--transition)
 }
 
 a:hover {
-    color: var(--color-white);
+    color: var(--titles-gray);
 
 }
 
 .btn {
     width: max-content;
     display: inline-block;
-    color: var(--color-primary);
     padding: 0.35rem .2rem;
-    border-radius: 0.6rem;
+    border-radius: 0.3rem;
     cursor: pointer;
-    border: 1px solid var(--color-primary);
+    border: 1px solid black;
     transition: var(--transition);
 }
 
 .btn:hover {
-    background: var(--color-white);
+    background: var(--titles-gray);
     color: var(--color-bg)
 }
 

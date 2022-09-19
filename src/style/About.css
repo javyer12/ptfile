@@ -1,13 +1,14 @@
 .gallery {
-    --s: 150px; /* control the size */
+    --s: 80px; /* control the size */
     --g: 10px;  /* control the gap */
     display: grid;
+    margin-top: 55%;
     /* margin: calc(var(--s) + var(--g)); */
   }
   
   .gallery > img {
     grid-area: 1/1;
-    width: 40%;
+    width: 30%;
     aspect-ratio: 1.15;
     object-fit: cover;
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%,75% 100%,25% 100%,0 50%);
@@ -15,7 +16,7 @@
     cursor: pointer;
     filter: grayscale(80%);
     transition: .2s linear;
-    margin-left: 7.6rem;
+    margin-left: 8rem;
     margin-top: -15rem ;
   }
   .gallery > img:hover {
@@ -39,7 +40,7 @@
   /* ///////////media gallery //////////////  */
   .gallery__1 {
       visibility:hidden;
-    --s: 120px; /* control the size */
+    --s: 80px; /* control the size */
     display: grid;
     grid: auto-flow var(--s) / repeat(2,var(--s));
     gap: 10px;
@@ -56,31 +57,34 @@
 /* about me ---------------- -- */
 .about__container {
     display: grid;
-    grid-template-columns: 35% 60%;
-    gap:5%;
+    grid-template-columns: 38% 60%;
+    gap:2%;
+    padding-bottom: 3rem;
     /* margin: 2rem; */
 } 
 .about__me {
-    width: 26rem;
-    height: 70vh;
+    width:30vw;
+    height: inherit;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     /* background: #b9b8b5; */
     display:grid;
-    /* place-items: center; */
-    margin-top: -10%;
+    /* margin-top: -10%; */
     margin-left: -4rem;
 }
 .about__me:hover  {
  background: linear-gradient(
         45deg,
         transparent,
-        var(--color-primary), 
+        var(--gray-20), 
+        var(--gray-40), 
+        var(--gray-60), 
+        var(--gray-80), 
         transparent
     ); 
 }
 .highlight__word {
-    color: var(--color-primary);
+    color: var(--underline-color);
 }
 .about__me-image {
     visibility: hidden;
@@ -96,11 +100,14 @@
 }
 .about__cards {
     display: grid;
-    grid-template-columns: repeat(4, .8fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
+h6{
+    color: var(--white)
+}
 .about__card {
-    background: var(--color-bg-variant);
+    background: var(--blue-80);
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 1.2rem;
@@ -109,13 +116,13 @@
 }
 
 .about__card:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
+    background: var(--color-white);
+    border-color: var(--gray-100);
     cursor: default;
 }
 
 .about__icon {
-    color: var(--color-primary);
+    color: var(--gray-100);
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
@@ -126,6 +133,7 @@
     font-size: 0.7rem;
     color: var(--color-light);
 }
+
 .about__content p {
     margin: 2rem 1rem 2.6rem 1rem;
     font-size: 0.9rem;
@@ -137,7 +145,7 @@
     padding: 0.5rem;
     margin-left: 45%;
     background: transparent;
-    color: rgb(255, 255, 255);
+    color: var(--color-white);
 }
 
 /* ///media queries ////  */
