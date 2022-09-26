@@ -1,11 +1,11 @@
 import React from 'react';
-import cv from "../material/fran_cv.pdf";
+// import cv from "../material/fran_cv.pdf";
 
 const CTA = () => {
   return (
     <div className="cta">
       <a href="#contact" className="btn btn-primary">
-        Lest's Talk
+        Let's Talk
       </a>
       <a
         className="btn"

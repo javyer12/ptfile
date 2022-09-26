@@ -3,7 +3,7 @@ import { useState } from "react";
 import "../style/Header.css";
 import CTA from "./CTA";
 import HeaderSocial from "./HeaderSocial.jsx";
-import me from "../material/profile2.png";
+import me from "../material/perfil.jpeg";
 
 function Header() {
   const [ scroll, setScroll ] = useState("#");

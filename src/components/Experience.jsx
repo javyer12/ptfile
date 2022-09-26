@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import { BsPatchCheckFill } from "react-icons/bs";
 import "../style/experience.css";
 
@@ -28,14 +29,14 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="ex-icon" />
               <div>
-                <h4>JavaScript</h4>
+                <h5>JavaScript</h5>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="ex-icon" />
               <div>
-                <h4>React js</h4>
+                <h5>React js</h5>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -97,13 +98,17 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="ex-icon" />
               <div>
-                <h6>Microsoft Azure</h6>
+                <h5>Microsoft Azure</h5>
                 <small className="text-light">Basic</small>
               </div>
             </article>
           </div>
         </div>
       </div>
+      <Link to="/more-experience"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn">More about my Experience</Link>
     </section>
   );
 };

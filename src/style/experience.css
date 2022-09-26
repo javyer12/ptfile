@@ -1,8 +1,10 @@
 .ex-icon {
-    color: var(--color-primary);
+    color: var(--green);
     /* color: rgb(255, 0, 225); */
 }
-
+#experience a {
+    margin-left: 40%;
+}
 .experience__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -10,7 +12,7 @@
 }
 
 .experience__container>div {
-    background: var(--color-bg-variant);
+    background: var(--gray-40);
     padding: 2.4rem 3rem;
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
@@ -19,16 +21,16 @@
 }
 
 .experience__container>div:hover {
-    background: transparent;
+    background: var(--blue-80);
     border-color: var(--color-primary-variant);
     cursor: default;
-    color: var(--color-primary)
+    color: var(--white) !important;
 }
 
 .experience__container>div h3 {
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--color-primary)
+    color: var(--color-primary) 
 }
 
 .experience__content {
@@ -42,7 +44,9 @@
     display: flex;
     gap: 1rem;
 }
-
+.text-light {
+    color: var(--gray-100) !important;
+}
 /* media queries */
 
 @media screen and (max-width:700px) {

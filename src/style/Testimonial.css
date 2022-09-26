@@ -12,7 +12,6 @@
     border: 0.4rem solid var(--color-primary-variant);
 }
 .testimonial {
-
     text-align: center;
     padding: 1.3rem;
     border-radius: 2rem;
@@ -31,7 +30,9 @@
     margin: 0.8rem auto 0;
     text-align: justify;
 }
-
+.client__review {
+    color: var(--gray-100);
+}
 /* //////// MEDIAS QUERIES (MEDIUN DEVICES) //////////  */
 @media screen and (max-width: 1024px) {
 }

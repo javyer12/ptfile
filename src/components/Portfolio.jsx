@@ -21,14 +21,14 @@ const portfolios = [
     portfolioName: " WANDA LANDING PAGE",
     image: portfolio2,
     githubLink: "https://github.com/javyer12/async-landing",
-    demoLink: "https://github.com/",
+    demoLink: "https://javyer12.github.io/async-landing/index.html",
   },
   {
     id: 3,
     portfolioName: "TO-DO LIST",
     image: portfolio3,
     githubLink: "https://github.com/javyer12/to-doList",
-    demoLink: "https://github.com/",
+    demoLink: "https://todoyourlist.netlify.app/",
   },
   {
     id: 4,
@@ -63,17 +63,18 @@ const Portfolio = () => {
             <div className="portfolio__item-img">
               <img src={item.image} alt="demo project" />
             </div>
-            <h3 className="">{item.portfolioName}</h3>
+            <h2 className="portfolio-title">{item.portfolioName}</h2>
             <div className="portfolio__item-cta">
               <a
                 target="_blank"
                 rel=" noopener noreferrer"
-                href={item.githubLink} className="btn">
+                href={item.githubLink}
+                className="btn btn-g">
                 Github
               </a>
               <a
                 href={item.demoLink}
-                className="btn btn-primary"
+                className="btn-d  btn btn-primary"
                 target="_blank"
                 rel=" noopener noreferrer"
               >
@@ -84,6 +85,8 @@ const Portfolio = () => {
         ))}
 
       </div>
+      <a href="#home" className="btn more_project">More Porjects</a>
+
     </section>
   );
 };

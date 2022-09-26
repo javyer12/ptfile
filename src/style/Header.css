@@ -22,8 +22,16 @@ header {
     border: 1px solid rgba(255, 255, 255, 0.80); */
 
 }
-.header__info {
+.header__info { 
     margin-top: 40%;
+}
+.header__info h1,h3,h4{
+    font-size: 3em;
+    transition-property: font-size;
+  transition-duration: 4s;
+  transition-delay: 3s;
+  /* font-size: 36px; */
+  transition-timing-function:linear;
 }
 /* ||CTA||  */
 .cta {
@@ -96,11 +104,11 @@ header {
     filter: saturate(150%);
 } */
 .me {
-    width: 20rem;
+    width: 25rem;
     aspect-ratio: 1/1;
     overflow: hidden;
     border-radius:50%;
-    margin: -15rem auto 1rem;
+    margin: -20rem auto 1rem;
     border: 0.4rem solid var(--color-light);
 }
 .me img {

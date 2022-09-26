@@ -1,8 +1,8 @@
 import React from 'react';
 import "../style/About.css";
-import myphoto from "../material/portfolio2.jpg";
-import me from "../material/profile4.png"
-import me1 from "../material/profile5.png";
+// import myphoto from "../material/portfolio6.jpg";
+import me from "../material/perfil.jpeg"
+// import me1 from "../material/portfolio6.jpg";
 import { IoIosCodeWorking } from "react-icons/io";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 
@@ -64,7 +64,7 @@ const About = () => {
           <div className="about__desc">
 
             <p>
-              I am a person who loves evolution, human and <span className="highlight__word">technological development</span>, lover of new technologies that help us build a <span className="highlight__word">digital world </span>in the near future, I am a frontend dev-junior with <span className="highlight__word">JavaScript, React js</span> others, passionate about it sports and the 7 arts.
+              I am a person who loves evolution, science and <span className="highlight__word">technological development</span>, lover of new technologies that help us build a <span className="highlight__word">digital world </span>in the near future, I am a frontend dev-junior with <span className="highlight__word">JavaScript, React js</span> others, passionate about it sports and the 7 arts.
             </p>
             <a className="btn btn-primary" href="#contact">
               Let's Talk

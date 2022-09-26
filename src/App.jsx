@@ -1,27 +1,19 @@
 import React from 'react';
-import Header from "./components/Header";
-import Nav from "./components/Nav";
-import About from "./components/About";
-import Experience from "./components/Experience";
-import Services from "./components/Services";
-import Portfolio from "./components/Portfolio";
-import Testimonials from "./components/Testimonials";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import { Routes, Route } from "react-router-dom";
+import MoreExperience from "./container/MoreExperience";
+import Home from "./container/Home";
 
-const App = () => {
+function App() {
     return (
         <>
-            <Header />
-            <Nav />
-            <About />
-            <Experience />
-            <Services />
-            <Portfolio />
-            <Testimonials />
-            <Contact />
-            <Footer />
+            <Routes>
+                <Route path="/" element={<Home />} />
+            </Routes>
+            <Routes>
+                <Route path="more-experience" element={<MoreExperience />} />
+            </Routes>
         </>
     )
 }
+
 export default App;

@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer>
             <div className="left__footer responsive">
-                <a href='#' className='foote__logo'>F. Murillo</a>
+                <a href='#home' className='foote__logo'>F. Murillo</a>
                 <a href="#services"><img src={brand} className="img-fluid" alt="personal brand" /></a>
             </div>
             <ul className='permalink center__footer'>

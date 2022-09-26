@@ -1,20 +1,20 @@
 import React from 'react';
-import AVTR1 from "../material/avatar1.jpg";
+import AVTR1 from "../material/darleny.jpeg";
 import AVTR2 from "../material/avatar2.jpg";
 import AVTR3 from "../material/avatar3.jpg";
-import AVTR4 from "../material/avatar4.jpg";
+// import AVTR4 from "../material/avatar4.jpg";
 import "../style/Testimonial.css";
 
 const data = [
   {
     id: 1,
-    name: "Pedro Juarez",
+    name: "Darleny Cruz",
     img: AVTR1,
     description: ' "I’ve tried using different softwares. The computer is not my strong side. There is excellent support behind Physoft and people to walk you through it. If you have any questions, they’ll go over that and explain to you how to do that. "'
   },
   {
     id: 2,
-    name: "Pedro Juarez",
+    name: "Roberto Carlos",
     img: AVTR2,
     description: '  "It’s really helped us grow. I can keep all of the customer’s information in there so if I need to look up something in the future or call them for a follow up, I have all of that there, so it’s really helped us organize the whole business."'
   },
@@ -46,6 +46,7 @@ const Testimonials = () => {
             <small className="client__review ">
               {item.description}
             </small>
+            <a href="#contact" className="btn">Get in touch</a>
           </article>
         ))}
       </div>
