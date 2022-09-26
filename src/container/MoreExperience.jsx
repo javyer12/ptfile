@@ -9,12 +9,13 @@ function MoreExperience() {
       return (
             <>
                   <Paper
+                        variant='elevation'
                         sx={{
                               p: '2px 4px',
                               display: 'block',
                               alignItems: 'center',
                               width: "90%",
-                              margin: '5%'
+                              margin: '5%',
                         }}
                   >
                         <Search />

@@ -108,7 +108,7 @@ header {
     aspect-ratio: 1/1;
     overflow: hidden;
     border-radius:50%;
-    margin: -20rem auto 1rem;
+    margin: -25rem auto 1rem;
     border: 0.4rem solid var(--color-light);
 }
 .me img {

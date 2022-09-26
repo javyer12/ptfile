@@ -1,14 +1,15 @@
 .gallery {
-    --s: 80px; /* control the size */
+    --s: 60px; /* control the size */
     --g: 10px;  /* control the gap */
     display: grid;
     margin-top: 55%;
+    height: 100px !important;
     /* margin: calc(var(--s) + var(--g)); */
   }
   
   .gallery > img {
     grid-area: 1/1;
-    width: 30%;
+    width: 85%;
     aspect-ratio: 1.15;
     object-fit: cover;
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%,75% 100%,25% 100%,0 50%);
@@ -16,17 +17,19 @@
     cursor: pointer;
     filter: grayscale(80%);
     transition: .2s linear;
-    margin-left: 8rem;
-    margin-top: -15rem ;
+    margin-left: 2rem;
+    margin-top: 0rem ;
   }
   .gallery > img:hover {
     filter: grayscale(0);
     z-index: 1;
     --_t: 1.2;
+    width: 70%;
+    margin-left: 4rem;
   }
   
   .gallery > img:nth-child(1) {--_y: calc(-100% - var(--g))}
-  .gallery > img:nth-child(7) {--_y: calc( 100% + var(--g))}
+  /* .gallery > img:nth-child(7) {--_y: calc( 100% + var(--g))}
   .gallery > img:nth-child(3),
   .gallery > img:nth-child(5) {--_x: calc(-75% - .87*var(--g))}
   .gallery > img:nth-child(4),
@@ -34,7 +37,7 @@
   .gallery > img:nth-child(3),
   .gallery > img:nth-child(4) {--_y: calc(-50% - .5*var(--g))}
   .gallery > img:nth-child(5), 
-  .gallery > img:nth-child(6) {--_y: calc( 50% + .5*var(--g))}
+  .gallery > img:nth-child(6) {--_y: calc( 50% + .5*var(--g))} */
   
 
   /* ///////////media gallery //////////////  */
