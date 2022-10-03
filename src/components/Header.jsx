@@ -11,32 +11,35 @@ function Header() {
 
   const today = new Date();
   const day = today.getDate();
+  const month = today.getMonth();
   const year = today.getUTCFullYear();
   console.log(year);
   return (
     <header id="home">
       <div className="container header__contianer">
-        <div className="header__info">
+        <div className="one"></div>
+
+        <div className="two">
+          <div className="cta__header">
+            <CTA />
+          </div>
+          <div className="social__header">
+            <HeaderSocial />
+          </div>
+        </div>
+
+        <div className="three header__info">
           <h3>Hello, I'm</h3>
           <h1>Francisco Murillo</h1>
           <h4 className=""> Front-End Developer </h4>
         </div>
-        <div className="cta__header">
-          <CTA />
-        </div>
-        <div className="social__header">
-          <HeaderSocial />
-        </div>
 
-        <div className="me">
+        <div className="four me">
           <img src={me} alt="me" />
         </div>
-        <div className="row justify-content-end">
-          <h5><MdLocationPin /> El Progreso, Yoro | Honduras</h5>
-          <small> {day}/{year}</small >
-        </div>
 
-        <div className="scroll">
+
+        <div className="five scroll">
           <a
             href={scroll}
             onClick={() => {
@@ -56,6 +59,11 @@ function Header() {
               </h4>
             )}
           </a>
+        </div>
+
+        <div className="six ">
+          <h5><MdLocationPin /> El Progreso, Yoro | Honduras</h5>
+          <small> {month}/{day}/{year}</small >
         </div>
       </div>
     </header>

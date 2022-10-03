@@ -59,7 +59,7 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
         {portfolios.map((item) => (
-          <article key={item.id} className="portfolio__item">
+          <article key={item.id} className="portfolio__item  bg-light">
             <div className="portfolio__item-img">
               <img src={item.image} alt="demo project" />
             </div>

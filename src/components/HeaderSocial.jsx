@@ -2,6 +2,8 @@ import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { BsTwitter } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
+import { SiPlatzi } from "react-icons/si";
+
 import "../style/Header.css";
 
 const HeaderSocial = () => {
@@ -19,6 +21,9 @@ const HeaderSocial = () => {
       </a>
       <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/FBollys">
         <BsTwitter />
+      </a>
+      <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/FBollys">
+        <SiPlatzi />
       </a>
     </div>
   );
