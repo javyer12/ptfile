@@ -5,19 +5,21 @@ header {
 }
 
 .header__contianer {
-    padding-top: 2rem;
-    text-align: center;
-    width: 90% !important;
-    height: 100vh;
-    position: relative;
     background-color: var(--white);
+    height: 90vh;
     display: grid;
     grid-template-areas: 
-        "head cta"
-        "name photo"
-        "empty date";
+    "head cta"
+    "name photo"
+    "empty date";
     grid-template-rows: .5fr 1fr .5fr;
     grid-template-columns:1fr 1fr;
+    margin-top: 4.5rem !important;
+    padding-top: 2rem;
+    position: relative;
+    text-align: center;
+    width: 90% !important;
+    
 
 }
 
@@ -64,7 +66,7 @@ header {
 }
 /* ||social media|| */
 .header__social {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     display: flex;
     flex-direction: column;
     align-items: center;

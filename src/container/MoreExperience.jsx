@@ -4,10 +4,11 @@ import Paper from '@mui/material/Paper';
 import Search from "../components/experience/Search";
 import { Tags } from "../components/experience/Tags";
 import Diploma from "../components/experience/Diploma";
-
+import Heading from "../components/Heading";
 function MoreExperience() {
       return (
             <>
+                  <Heading />
                   <Paper
                         variant='elevation'
                         sx={{

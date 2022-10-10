@@ -1,8 +1,6 @@
 import React from 'react';
 import "../style/About.css";
-// import myphoto from "../material/portfolio6.jpg";
-import me from "../material/perfil.jpeg"
-// import me1 from "../material/portfolio6.jpg";
+import CardsAbout from "./blocks/CardsAbout";
 import { IoIosCodeWorking } from "react-icons/io";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 
@@ -17,27 +15,13 @@ const About = () => {
 
       <div className="container about__container">
         <div className="about__me ">
-          <div className="about__me-image">
-            {/* <img src={myphoto} alt="my profile" />{" "} */}
-            <div class="gallery__1">
-              <img src="https://picsum.photos/id/1040/300/300" alt="a house on a mountain" />
-              <img src="https://picsum.photos/id/106/300/300" alt="sime pink flowers" />
-              <img src="https://picsum.photos/id/136/300/300" alt="big rocks with some trees" />
-              {/* <img src="https://picsum.photos/id/110/300/300" alt="a cool landscape" /> */}
-            </div>
+          <div className="about__me-img cards__about">
+            <CardsAbout className="upper" />
+            <CardsAbout className="middle" />
+            <CardsAbout className="buttom" />
           </div>
-          <div className=" gallery">
-            {/* <img src="https://picsum.photos/id/1040/300/300" alt="a house on a mountain" /> */}
-            <img src={me} alt="sime pink flowers" />
-            {/* <img src="https://picsum.photos/id/106/300/300" alt="sime pink flowers" /> */}
-            {/* <img src="https://picsum.photos/id/136/300/300" alt="big rocks with some trees" />
-            <img src="https://picsum.photos/id/1039/300/300" alt="a waterfall, a lot of tree and a great view from the sky" />
-            <img src="https://picsum.photos/id/110/300/300" alt="a cool landscape" />
-            <img src="https://picsum.photos/id/1047/300/300" alt="inside a town between two big buildings" />
-            <img src="https://picsum.photos/id/1057/300/300" alt="a great view of the sea above the mountain" /> */}
-          </div>
-
         </div>
+
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
@@ -72,7 +56,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
+    </section >
   );
 };
 
