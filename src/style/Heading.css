@@ -20,7 +20,7 @@
         border-radius:50%;
         height: inherit !important;
         margin-left: 30%;
-        width: 14%;
+        width: 10%;
 }
 .heading__img img:hover {
         background: rgba(255, 255, 255, 0.95);
@@ -45,4 +45,28 @@
 .menu__icon {
         font-size:28px;
         margin: 4% 0 0 85%;
+}
+
+@media screen and (max-width:724px){
+        .heading__img {
+                margin:auto;
+        }
+        .heading__img img{
+                background-color: rgb(0, 0, 0);
+                border-radius:50%;
+                height: inherit !important;
+                margin-left: 30%;
+                width: 20%;
+                margin-top:-15%;
+        }
+        .heading__list ul {
+            visibility: hidden;
+        }
+        .heading__close {
+                margin-right: 10%;
+        }
+        .menu__icon {
+                font-size:28px;
+                margin: 4% 10% 0 85%;
+        }
 }

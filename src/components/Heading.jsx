@@ -20,8 +20,8 @@ function Heading() {
                         </div>
                         <div className="heading__list">
                                 <ul>
-                                        <li> <Link to="/"><BsCodeSlash /> Code</Link></li>
-                                        <li><Link to="/"><SiAltiumdesigner /> Design</Link></li>
+                                        <li> <BsCodeSlash /> Code</li>
+                                        <li><SiAltiumdesigner /> Design</li>
                                 </ul>
                         </div>
                         <div className="heading__close">

@@ -85,8 +85,10 @@ const Portfolio = () => {
         ))}
 
       </div>
-      <a href="#home" className="btn more_project">More Porjects</a>
-
+      <a href="https://github.com/javyer12?tab=repositories"
+        target="_blank"
+        rel=" noopener noreferrer"
+        className="btn more_project">More Porjects</a>
     </section>
   );
 };
