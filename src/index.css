@@ -39,7 +39,7 @@
     --blue-80: #001958;
     --blue-100: #00003d;
 }
-
+/* 50,58,69 */
 html {
     scroll-behavior: smooth;
 }
@@ -50,10 +50,12 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-color: rgb(227, 227, 227);
+    /* background-color: rgb(240,240,240); */
+    background: rgb(2,0,36);
+    /* background: linear-gradient(45deg, #a7a7a7 10%,   #bdbdbd 44%,  #d3d3d3 100%); */
+    /* background: linear-gradient(45deg, rgba(2,0,36,1) 0%,   #002c74 14%,  #2859ad 100%); */
 }
 
 /* "https://p4.wallpaperbetter.com/wallpaper/165/975/632/line-dark-light-vertical-wallpaper-preview.jpg" */
@@ -62,7 +64,7 @@ body {
 
 .container {
     width: var(--container-width-lg);
-    margin: 0 auto;
+    margin: 0;
 }
 
 h1,
@@ -81,18 +83,20 @@ h3 {
     color: var(--gray-20)
 }
 section {
-    margin: 6rem;
-    padding:1.5rem;
-    height: max-content;
+    margin: 0;
+    width:100vw;
+    padding:0;
+    height: 100vh;
+    border-top: 2px solid var(--gray-80);
     border-top-style:dashed;
     background-color: white;
-    padding-bottom: 3rem;
-    box-shadow: 10px 10px 7px #b4b4b4;
+    padding-bottom: 0;
+    /* box-shadow: 10px 10px 7px #b4b4b4; */
 }
 
 section>h2,
 section>h5 {
-    margin-top: 1%;
+    margin-top:.8rem;
     text-align: center;
     color: var(--gray-40);
 }
@@ -117,21 +121,23 @@ a:hover {
 }
 
 .btn {
+    height: max-content;
     margin:2%;
     width: max-content;
     display: inline-block;
-    padding: 0.4rem .21rem;
+    padding: 0.5rem .4rem;
     border-radius: 0.3rem;
     cursor: pointer;
     border: 1px solid  rgba(0, 0, 0, 0.355);
     transition: var(--transition);
 }
 .btn-primary {
-    background-color: var(--green);
+    background-color: rgb(13, 12, 12); 
+    color: white;
 }
 .btn:hover {
-    background: var(--titles-gray);
-    color: var(--color-bg)
+    background: white;
+    color: var(--color-bg);
 }
 
 img {
@@ -145,13 +151,13 @@ img {
 } */
 
 /* || media queries (MD) */
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
     }
 
     section {
-        margin-top: 6rem;
+        margin-top: 3rem;
     }
 }
 /* || media queries (SD) */

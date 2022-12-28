@@ -1,32 +1,32 @@
 .contact__container {
-    width: 58%;
-    display: grid;
-    grid-template-columns: 32% 58%;
-    gap: 10%;
+    width: 100%;
+    padding-left:3rem;
+    display: grid; 
+    grid-template-columns: 40% 60%; 
+    gap: 5%;
 }
 
 .contact__options {
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
+    gap: 1rem;
 }
 
 .contact__option {
-    background: var(--blue-100);
+    background: transparent;
     padding: 1.2rem;
+    margin-left :2rem;
     border-radius: 1.2rem;
     text-align: center;
-    border: 1px solid transparent;
+    border: 1px solid var(--gray-40);
     transition: var(--transition);
-    color: var(--green) !important;
+    color: rgba(04,09,08,0.7)!important;
 }
 .contact__option a{
     color: var(--green) !important;
 }
 .contact__option:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
-    box-shadow: 5px 5px 2px; 
+    box-shadow: 5px 5px 2px var(--gray-20); 
 }
 
 .contact__option-icon {
@@ -55,7 +55,7 @@ textarea {
     padding: 1.5rem;
     border-radius: 0.5;
     background: transparent;
-    border: 2px solid var(--green);
+    border: 2px solid var(--gray-40);
     resize: none;
     color: var(--color-white);
 }
@@ -74,7 +74,7 @@ button {
 }
 
 /* ////////////////////////////////  ---------------------------MEDIAS QUERIES (SMALL DEVICES)------------------------------------ ////////////////////  */
-@media screen and (max-width: 624px) {
+@media screen and (max-width: 724px) {
     .contact__container {
         width: var(--container-width-sm);
     }

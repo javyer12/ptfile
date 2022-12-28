@@ -34,10 +34,9 @@ function Header() {
           <h4 className=""> Front-End Developer </h4>
         </div>
 
-        <div className="four me">
+        {/* <div className="four me">
           <img src={me} alt="me" />
-        </div>
-
+        </div> */}
 
         <div className="five scroll">
           <a

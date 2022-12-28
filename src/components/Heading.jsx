@@ -16,7 +16,6 @@ function Heading() {
         return (
                 <div className="heading__contianer">
                         <div className="heading__img">
-                                <img src={logo} alt="logo" />
                         </div>
                         <div className="heading__list">
                                 <ul>

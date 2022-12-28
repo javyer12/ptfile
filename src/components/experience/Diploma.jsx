@@ -1,6 +1,6 @@
 import React from 'react'
-import pro10 from "../../material/diploma/pro10.jpeg";
-import pro1 from "../../material/diploma/pro1.jpeg";
+import pro10 from "../../material/diploma/pro9.jpeg";
+import pro1 from "../../material/diploma/pro3.jpeg";
 import pro2 from "../../material/diploma/pro3.jpeg";
 const diploma = [
       {

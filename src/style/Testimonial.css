@@ -1,7 +1,9 @@
 .testimonials__container {
+    padding:2rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
+  width:100vw;
 }
 .client__avatar {
     width: 4rem;
@@ -16,8 +18,7 @@
     padding: 1.3rem;
     border-radius: 2rem;
     user-select: none;
-    /* width: 70%;
-    margin: auto; */
+    margin: 0 auto; 
 }
 .testimonial:hover {
     border: 1px solid var(--color-light);

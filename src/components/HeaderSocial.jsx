@@ -14,16 +14,16 @@ const HeaderSocial = () => {
         rel="noopener noreferrer"
         href="https://www.linkedin.com/in/francisco-javier-murillo-guillen-6302bb203/"
       >
-        <BsLinkedin />
+        <BsLinkedin className="social_icon" />
       </a>
       <a target="_blank" rel="noopener noreferrer" href="https://github.com/javyer12">
-        <FaGithub />
+        <FaGithub className="social_icon" />
       </a>
       <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/FBollys">
-        <BsTwitter />
+        <BsTwitter className="social_icon" />
       </a>
       <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/FBollys">
-        <SiPlatzi />
+        <SiPlatzi className="social_icon" />
       </a>
     </div>
   );

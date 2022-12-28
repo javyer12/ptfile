@@ -9,27 +9,27 @@ import portfolio6 from "../material/github.png";
 
 // const URL_REPO = "https://api.github.com/users/javyer12/repos"
 const portfolios = [
-  {
-    id: 1,
-    portfolioName: " Green A Phrases",
-    image: portfolio1,
-    githubLink: "https://github.com/javyer12/green-a",
-    demoLink: "https://javagreen.netlify.app/",
-  },
-  {
-    id: 2,
-    portfolioName: " WANDA LANDING PAGE",
-    image: portfolio2,
-    githubLink: "https://github.com/javyer12/async-landing",
-    demoLink: "https://javyer12.github.io/async-landing/index.html",
-  },
-  {
-    id: 3,
-    portfolioName: "TO-DO LIST",
-    image: portfolio3,
-    githubLink: "https://github.com/javyer12/to-doList",
-    demoLink: "https://todoyourlist.netlify.app/",
-  },
+  // {
+  //   id: 1,
+  //   portfolioName: " Green A Phrases",
+  //   image: portfolio1,
+  //   githubLink: "https://github.com/javyer12/green-a",
+  //   demoLink: "https://javagreen.netlify.app/",
+  // },
+  // {
+  //   id: 2,
+  //   portfolioName: " WANDA LANDING PAGE",
+  //   image: portfolio2,
+  //   githubLink: "https://github.com/javyer12/async-landing",
+  //   demoLink: "https://javyer12.github.io/async-landing/index.html",
+  // },
+  // {
+  //   id: 3,
+  //   portfolioName: "TO-DO LIST",
+  //   image: portfolio3,
+  //   githubLink: "https://github.com/javyer12/to-doList",
+  //   demoLink: "https://todoyourlist.netlify.app/",
+  // },
   {
     id: 4,
     portfolioName: " Ask for help",
