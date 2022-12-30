@@ -4,7 +4,7 @@ import "../style/Header.css";
 import { MdLocationPin } from "react-icons/md";
 import CTA from "./CTA";
 import HeaderSocial from "./HeaderSocial.jsx";
-import me from "../material/perfil.jpeg";
+import me from "../material/front.jpg";
 
 function Header() {
   const [ scroll, setScroll ] = useState("#");
@@ -17,9 +17,17 @@ function Header() {
   return (
     <header id="home">
       <div className="container header__contianer">
-        <div className="one"></div>
+        <div className="one header__info">
+          <h3>Hello, I'm</h3>
+          <h1>Francisco Murillo</h1>
+          <h4 className=""> Front-End Developer </h4>
+        </div>
 
-        <div className="two">
+        <div className="two me">
+          <img src={me} alt="me" />
+        </div>
+
+        <div className="three">
           <div className="cta__header">
             <CTA />
           </div>
@@ -28,17 +36,9 @@ function Header() {
           </div>
         </div>
 
-        <div className="three header__info">
-          <h3>Hello, I'm</h3>
-          <h1>Francisco Murillo</h1>
-          <h4 className=""> Front-End Developer </h4>
-        </div>
+        <div className="four"></div>
 
-        {/* <div className="four me">
-          <img src={me} alt="me" />
-        </div> */}
-
-        <div className="five scroll">
+        <div className="six scroll">
           <a
             href={scroll}
             onClick={() => {

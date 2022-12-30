@@ -1,8 +1,8 @@
 footer {
+    background: rgb(2,0,36);
     border-top : solid 1.5px rgba(240,240,240, 0.4);
     border-bottom : solid 1.5px rgba(240,240,240, 0.4);
     margin-top: .5rem;
-    margin-bottom: 2rem;
     padding-top: 2rem;
     display:grid;
     grid-template-columns:  1fr 1.2fr .8fr;

@@ -9,13 +9,13 @@ import portfolio6 from "../material/github.png";
 
 // const URL_REPO = "https://api.github.com/users/javyer12/repos"
 const portfolios = [
-  // {
-  //   id: 1,
-  //   portfolioName: " Green A Phrases",
-  //   image: portfolio1,
-  //   githubLink: "https://github.com/javyer12/green-a",
-  //   demoLink: "https://javagreen.netlify.app/",
-  // },
+  {
+    id: 1,
+    portfolioName: " Green A Phrases",
+    image: portfolio1,
+    githubLink: "https://github.com/javyer12/green-a",
+    demoLink: "https://javagreen.netlify.app/",
+  },
   // {
   //   id: 2,
   //   portfolioName: " WANDA LANDING PAGE",

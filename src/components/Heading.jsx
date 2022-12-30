@@ -19,12 +19,14 @@ function Heading() {
                         </div>
                         <div className="heading__list">
                                 <ul>
-                                        <li> <BsCodeSlash /> Code</li>
-                                        <li><SiAltiumdesigner /> Design</li>
+                                        <Link to="/coding"> <BsCodeSlash /> Code</Link>
+                                        <Link to="/design"><SiAltiumdesigner /> Design</Link>
                                 </ul>
                         </div>
                         <div className="heading__close">
-                                <GiHamburgerMenu className="menu__icon" />
+                                <Link to="/">
+                                        <GiHamburgerMenu className="menu__icon" />
+                                </Link>
                         </div>
                 </div>
         )

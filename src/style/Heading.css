@@ -7,12 +7,13 @@
         border-radius: 5px;
         display:grid;
         grid-template-columns: repeat(3, 1fr);
-        height: 8%;
+        height: 9%;
         position: fixed;
         width: 100vw;
         z-index: 2;
      
 }
+
 .heading__img {
         margin:auto;
 }

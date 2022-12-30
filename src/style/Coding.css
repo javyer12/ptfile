@@ -1,0 +1,9 @@
+.coding_title {
+    margin:4rem;
+}
+.image-tools{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    width:100vw;
+    margin:3rem;
+}

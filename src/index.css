@@ -52,9 +52,6 @@ body {
     font-family: 'Poppins', sans-serif;
     color: var(--color-white);
     line-height: 1.7;
-    /* background-color: rgb(240,240,240); */
-    background: rgb(2,0,36);
-    /* background: linear-gradient(45deg, #a7a7a7 10%,   #bdbdbd 44%,  #d3d3d3 100%); */
     /* background: linear-gradient(45deg, rgba(2,0,36,1) 0%,   #002c74 14%,  #2859ad 100%); */
 }
 
@@ -63,8 +60,9 @@ body {
 /* //////////////////////////////////////////////////////////////// */
 
 .container {
-    width: var(--container-width-lg);
+    width: 100vw;
     margin: 0;
+    padding:5%;
 }
 
 h1,
@@ -103,7 +101,6 @@ section>h5 {
 
 section>h2 {
     color: var(--color-white);
-    margin-bottom: 3rem;
 }
 
 /* .text-light {
@@ -121,8 +118,8 @@ a:hover {
 }
 
 .btn {
+    margin-top:1%;
     height: max-content;
-    margin:2%;
     width: max-content;
     display: inline-block;
     padding: 0.5rem .4rem;

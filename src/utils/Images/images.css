@@ -1,0 +1,41 @@
+.rounded-image {
+    width: 10rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius:50%;
+    border-left-style: ridge;
+    margin: 1rem;
+    border: 5px solid rgb(149,172,190);
+}
+.rounded-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.full-image {
+    margin: 1rem;
+    width: 10rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-left-style: ridge;
+    border: 5px solid rgb(149,172,190);
+}
+.full-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.back-image {
+    margin:1rem;
+    width: 10rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-left-style: ridge;
+    background-color: white;
+    border: 5px solid rgb(149,172,190);
+}
+.back-image img {
+    width: 80%;
+    height: 80%;
+    margin:1rem;
+}
