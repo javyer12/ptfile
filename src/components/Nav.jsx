@@ -33,13 +33,13 @@ const Nav = () => {
       >
         <BsFillJournalBookmarkFill />
       </a>
-      <a
+      {/* <a
         href="#services"
         onClick={() => setActiveNav("#services")}
         className={activeNav === "#" ? "active" : ""}
       >
         <FcServices />
-      </a>
+      </a> */}
       <a
         href="#contact"
         onClick={() => setActiveNav("#contact")}

@@ -87,14 +87,14 @@ section {
     height: 100vh;
     border-top: 2px solid var(--gray-80);
     border-top-style:dashed;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding-bottom: 0;
     /* box-shadow: 10px 10px 7px #b4b4b4; */
 }
 
 section>h2,
 section>h5 {
-    margin-top:.8rem;
+    margin-top:1rem !important;
     text-align: center;
     color: var(--gray-40);
 }
@@ -133,7 +133,7 @@ a:hover {
     color: white;
 }
 .btn:hover {
-    background: white;
+    background: rgb(0,248,106);
     color: var(--color-bg);
 }
 

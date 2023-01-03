@@ -19,8 +19,8 @@ function Heading() {
                         </div>
                         <div className="heading__list">
                                 <ul>
-                                        <Link to="/coding"> <BsCodeSlash /> Code</Link>
-                                        <Link to="/design"><SiAltiumdesigner /> Design</Link>
+                                        <Link to="/coding" className='heading__option'> <BsCodeSlash /> Code</Link>
+                                        <Link to="/design" className='heading__option'><SiAltiumdesigner /> Design</Link>
                                 </ul>
                         </div>
                         <div className="heading__close">

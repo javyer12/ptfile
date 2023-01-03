@@ -20,13 +20,12 @@ nav a {
     padding: 0.5rem;
     border-radius: 50%;
     display: flex;
-    color: var(--green);
+    color: black;
     font-size: 1rem;
 }
 
 nav a:hover {
-    background: rgb(218, 0, 164);
-    /* background: rgb(255, 255, 255); */
+    background: rgb(0,248,106);
     color: rgb(255, 255, 255);
 
 }

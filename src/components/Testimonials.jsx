@@ -1,8 +1,7 @@
 import React from 'react';
-import AVTR1 from "../material/darleny.jpeg";
 import AVTR2 from "../material/avatar2.jpg";
 import AVTR3 from "../material/avatar3.jpg";
-// import AVTR4 from "../material/avatar4.jpg";
+import AVTR1 from "../material/avatar4.jpg";
 import "../style/Testimonial.css";
 
 const data = [

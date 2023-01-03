@@ -60,10 +60,10 @@ function Header() {
           </a>
         </div>
 
-        <div className="six ">
+        {/* <div className="six ">
           <h5><MdLocationPin /> El Progreso, Yoro | Honduras</h5>
           <small> {month}/{day}/{year}</small >
-        </div>
+        </div> */}
       </div>
     </header>
   );
