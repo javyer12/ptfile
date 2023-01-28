@@ -10,6 +10,7 @@
     text-decoration: none;
 }
 :root {
+    --green-color:rgb(0,109,10);
     --green: rgb(0, 180, 0);
     --color-bg: #1f1f38;
     --color-bg-variant: #2c2c6c;
@@ -89,7 +90,6 @@ section {
     border-top-style:dashed;
     background-color: rgb(255, 255, 255);
     padding-bottom: 0;
-    /* box-shadow: 10px 10px 7px #b4b4b4; */
 }
 
 section>h2,
@@ -133,8 +133,8 @@ a:hover {
     color: white;
 }
 .btn:hover {
-    background: rgb(0,248,106);
-    color: var(--color-bg);
+    background: var(--green-color);
+    color: white;
 }
 
 img {

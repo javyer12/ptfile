@@ -65,25 +65,25 @@ const Portfolio = () => {
             <div className="portfolio__item-img">
               <img src={item.images} alt="demo project" />
             </div>
-            <h2 className="portfolio-title">{item.portfolioName}</h2>
             <div className="portfolio__item-cta">
+              <h2 className="portfolio-title">{item.portfolioName.toLocaleUpperCase()}</h2>
               <a
                 target="_blank"
                 rel=" noopener noreferrer"
                 href={item.githubLink}
-              // className="btn btn-g"
+                className="portfolio_links"
               >
                 <FaGithub className="project-icon" /> {" "}
-                {/* Github */}
+                Github
               </a>
               <a
                 href={item.demoLink}
-                // className="btn-d  btn btn-primary"
+                className="portfolio_links"
                 target="_blank"
                 rel=" noopener noreferrer"
               >
                 <FaChrome className="project-icon" /> {" "}
-                {/* Demo Project */}
+                Demo Project
               </a>
             </div>
           </article>

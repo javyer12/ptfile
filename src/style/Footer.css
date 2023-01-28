@@ -9,8 +9,8 @@ footer {
 }
 .left__footer img {
     border-radius :10%;
-    height: 250px;
-    width: 250px;
+    height: 150px;
+    width: 150px;
     margin: auto;
 }
 .left__footer a {
@@ -19,6 +19,10 @@ footer {
     text-decoration: none;
     font-size: 3rem;
     color:white;
+}
+.fronted{
+    font-size:.8rem;
+    margin-top:-15px;
 }
 .left__footer {
     display: grid;
@@ -42,8 +46,8 @@ footer {
 }
 
 .right__footer img {
-    width: 65%;
-    height:50%;
+    width: 90px;
+    height:110px;
     margin-top: 30%;
 }
 /* ////////////////////////////////  ---------------------------MEDIAS QUERIES (MEDIUN DEVICES)------------------------------------ ////////////////////  */

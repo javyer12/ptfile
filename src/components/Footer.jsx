@@ -6,8 +6,9 @@ const Footer = () => {
     return (
         <footer>
             <div className="left__footer responsive">
-                <a href='#home' className='foote__logo'>F. Murillo</a>
-                <a href="#services"><img src={brand} className="img-fluid" alt="personal brand" /></a>
+                <a href='#home' className='foote__logo'>F. Murillo <br /> <small className="fronted">Frontend Developer</small></a>
+
+                <a href="#services"><img src={fg} className="img-fluid" alt="personal brand" /></a>
             </div>
             <ul className='permalink center__footer'>
                 {/* <li><a href='#home'>More about my skills</a></li>
@@ -18,9 +19,9 @@ const Footer = () => {
                     href="https://dev.to/javyer12">My Profile in Dev To</a></li>
                 <li><a target="_blank" rel="noopener noreferrer" href="https://replit.com/@javyer">My Profile in Replit</a></li>
             </ul>
-            <div className="right__footer">
+            {/* <div className="right__footer">
                 <img src={fg} alt='my logo' />
-            </div>
+            </div> */}
         </footer>
     )
 }

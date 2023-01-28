@@ -1,6 +1,5 @@
 .ex-icon {
-    color: var(--green);
-    /* color: rgb(255, 0, 225); */
+    color: var(--green-color);
 }
 #experience a {
     margin-left: 40%;
@@ -25,12 +24,7 @@
     margin:auto;
 }
 
-/* .experience__container>div:hover {
-    background: var(--blue-80);
-    border-color: var(--color-primary-variant);
-    cursor: default;
-    color: var(--white) !important;
-} */
+
 
 .experience__container>div h3 {
     color: var(--color-primary) ;

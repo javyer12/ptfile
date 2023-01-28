@@ -51,9 +51,9 @@ function Header() {
             className="scroll__down"
           >
             {scroll === "#contact" ? (
-              <h4 style={{ color: "#4db5ff", fontSize: "15px" }}>Scroll Up</h4>
+              <h4 style={{ color: "#000", fontSize: "15px" }}>Scroll Up</h4>
             ) : (
-              <h4 style={{ color: "#b9b8b5", fontSize: "15px" }}>
+              <h4 style={{ color: "#000", fontSize: "15px" }}>
                 Scroll Down
               </h4>
             )}

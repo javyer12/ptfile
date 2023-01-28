@@ -1,12 +1,12 @@
 .heading__contianer {
-        background: transparent;
-        box-shadow: 0 4px 16px 0 rgba(35, 35, 35, 0.37);
+        background: white;
+        /* box-shadow: 0 4px 10px 0 rgba(35, 35, 35, 0.07); */
         backdrop-filter: blur( 5px );
         -webkit-backdrop-filter: blur( 5px );
         border-radius: 5px;
         display:grid;
         grid-template-columns: repeat(3, 1fr);
-        height: 9%;
+        height: 6%;
         position: fixed;
         width: 100vw;
         z-index: 2; 
@@ -39,13 +39,11 @@
         display:flex;
         justify-content: space-between;
         margin:2%;
-        font-size: 23px;
+        font-size: 17px;
 }
-.heading__option:hover{
-        color:rgb(0,248,100) !important;
-}
+
 .menu__icon {
-        font-size:28px;
+        font-size:23px;
         margin: 4% 0 0 85%;
 }
 
