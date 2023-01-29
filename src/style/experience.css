@@ -49,25 +49,74 @@
 }
 /* media queries */
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:725px) {
     .experience__container {
         grid-template-columns: 1fr;
+        height:max-content;
     }
     .experience__container > div {
         width: 100%;
-        padding: 2rem;
-        /* margin: 0 auto; */
+        height:max-content;
+    }
+    .experience__frontend h3{
+        margin:0 !important;
+        padding: 0;
+        font-size: 16px !important; 
+    }
+    .experience__details {
+        background: transparent;
+        box-shadow: 0 2px 12px 0 rgba(35, 35, 35, 0.37);
+        backdrop-filter: blur( 5px );
+        border-top-left-radius: 1rem; 
+        border-bottom-right-radius: 1rem;
+        border: 1px solid transparent;
+        -webkit-backdrop-filter: blur( 5px );
+        padding: .3rem 1rem;
+        width:max-content;
+        margin:auto;
+    }
+    .experience__details div h5, .experience__details div small {
+        font-size:12px;
+    }
+    .one, .three, .five {
+        margin:1rem 8rem 1rem 0;
+    }
+    .two, .four, .six {
+        margin:0 0 0 7rem;
     }
     .experience__content {
-        padding:  1rem;
+        padding:auto;
+        display: block;
     }
     h4{
         font-size: 1rem;
+    }
+    h2{
+        margin:0 !important;
     }
     .experience__content {
         gap: 1.2rem;
     }
     .ex-icon {
         font-size: .8rem;
+    }
+
+
+
+    /* back */
+    .experience__backend h3{
+        margin:0 !important;
+        padding: 0;
+        font-size: 16px !important; 
+    }
+    .first, .third, .fifth {
+        margin:1rem 8rem 1rem 0;
+    }
+    .second, .fourth, .sixth {
+        margin:0 0 0 7rem;
+    }
+
+    .experience__container a {
+        margin: 1rem !important;
     }
 }

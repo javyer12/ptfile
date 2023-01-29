@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import "../style/Header.css";
-import { MdLocationPin } from "react-icons/md";
 import CTA from "./CTA";
 import HeaderSocial from "./HeaderSocial.jsx";
 import me from "../material/front.jpg";
@@ -9,11 +8,7 @@ import me from "../material/front.jpg";
 function Header() {
   const [ scroll, setScroll ] = useState("#");
 
-  const today = new Date();
-  const day = today.getDate();
-  const month = today.getMonth();
-  const year = today.getUTCFullYear();
-  console.log(year);
+
   return (
     <header id="home">
       <div className="container header__contianer">
@@ -36,9 +31,8 @@ function Header() {
           </div>
         </div>
 
-        <div className="four"></div>
 
-        <div className="six scroll">
+        <div className="four scroll">
           <a
             href={scroll}
             onClick={() => {
@@ -59,11 +53,6 @@ function Header() {
             )}
           </a>
         </div>
-
-        {/* <div className="six ">
-          <h5><MdLocationPin /> El Progreso, Yoro | Honduras</h5>
-          <small> {month}/{day}/{year}</small >
-        </div> */}
       </div>
     </header>
   );

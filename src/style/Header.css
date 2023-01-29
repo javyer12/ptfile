@@ -7,13 +7,12 @@ header {
 .header__contianer {
     background-color: var(--white);
     z-index:3;
-    height: 100vh;
+    height: 100%;
     display: grid;
     grid-template-areas: 
     "name photo"
-    "head cta"
-    "empty date";
-    grid-template-rows: .5fr 1fr .5fr;
+    "head cta";
+    grid-template-rows: .5fr 1fr;
     grid-template-columns:1fr 1fr;
     margin-top: 0;
     padding-top: 2rem;
@@ -35,16 +34,7 @@ header {
   .header__contianer > .four {
     grid-area: cta;
   }
-  .header__contianer > .five {
-    grid-area: empty;
-  }
-  .header__contianer > .six {
-    grid-area: date;
-  } 
 
-  .six {
-    margin: auto;
-}
 .header__info {
     padding: 4rem 0 0 2rem;
 }
@@ -127,31 +117,43 @@ header {
 }
 
 /* media queries   */
-@media screen and (max-width:700px) {
-    .header__contianer  {
+@media screen and (max-width:725px) {
+    
+.header__contianer > .one {
+    grid-area: name;
+  }
+  .header__contianer  > .two {
+   visibility: hidden;
+  }
+  .header__contianer > .three {
+    grid-area: head;
+  }
+  .header__contianer > .four {
+    grid-area: cta;
+  }
+
+
+      .header__contianer {
         background-color: var(--white);
-        height: 70vh;
-        display: grid;
-        grid-template-areas: 
-        "name photo  "
-        "cta date"
-        "empty head";
-        grid-template-rows: .5fr 1fr .5fr;
-        grid-template-columns:1fr ;
-        margin-top: 4.5rem !important;
+        height: 70%;
+        display: grid; 
+         grid-template-areas: 
+        "name"
+        "head cta";
+        grid-template-rows: .5fr 1fr;
+        margin: auto;
         padding-top: 2rem;
         position: relative;
         text-align: center;
-        width: 90% !important;
+        width: 100vw !important;
         
     }
-    header {
-        height: 100vh;
-    }
     .header__info  {
+        margin:auto !important;
         margin-top:-5rem;
     }
     .header__info h1,h3,h4{
+        text-align: center;
         font-size: 1.5em;
     }
     .cta {
@@ -165,24 +167,9 @@ header {
         font-size: .3rem;
         text-align: center;
     }
-
-    .me {
-        background: linear-gradient(#5d00af, #daaeee, #1a31ff, transparent);
-        width: 60%;
-        height: 70%;
-        position: relative;
-        left: calc(50% - 2rem);
-        margin-top: .2rem;
-        border-radius: 75%;
-        border:none;
-        overflow: hidden;
-        backdrop-filter: blur(25rem);
-    }
-    .me img {
-        width: 100%;
-        height: 100%;
-    }
+   
     .header__social {
+        position: fixed !important;
         width: 5%;
         font-size: 65%;
         left: .5rem;
@@ -193,8 +180,6 @@ header {
         max-height: fit-content;
     }
     .scroll__down {
-        /* position: absolute;
-        right: -10%; */
         visibility: hidden;
     }
 

@@ -158,12 +158,13 @@ img {
     }
 }
 /* || media queries (SD) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 725px) {
     .container {
         width: var(--container-width-sm);
     }
     section {
         margin-top: 10%;
+        height: max-content;
     }
 
     section > h2 {
