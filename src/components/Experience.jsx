@@ -104,11 +104,11 @@ const Experience = () => {
             </article>
           </div>
         </div>
-        <a href="https://platzi.com/p/franmurillo/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn">More about my Experience</a>
       </div>
+      <a href="https://platzi.com/p/franmurillo/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn">More about my Experience</a>
     </section>
   );
 };

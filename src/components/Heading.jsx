@@ -10,6 +10,7 @@ function Heading() {
         return (
                 <div className="heading__contianer">
                         <div className="heading__img">
+                                <Link to="/"><h3>Javier</h3></Link>
                         </div>
                         <div className="heading__list">
                                 <ul>
@@ -17,11 +18,11 @@ function Heading() {
                                         <Link to="/design" className='heading__option'><SiAltiumdesigner /> Design</Link>
                                 </ul>
                         </div>
-                        <div className="heading__close">
+                        {/* <div className="heading__close">
                                 <Link to="/">
                                         <GiHamburgerMenu className="menu__icon" />
                                 </Link>
-                        </div>
+                        </div> */}
                 </div>
         )
 }

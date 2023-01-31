@@ -2,7 +2,7 @@
     color: var(--green-color);
 }
 #experience a {
-    margin-left: 40%;
+   margin-left:45% !important;
 }
 .experience__container {
     padding-top:0 !important;
@@ -23,8 +23,6 @@
     width:max-content;
     margin:auto;
 }
-
-
 
 .experience__container>div h3 {
     color: var(--color-primary) ;
@@ -50,6 +48,10 @@
 /* media queries */
 
 @media screen and (max-width:725px) {
+    #experience a {
+        margin-left:25% !important;
+        margin:1%;
+     }
     .experience__container {
         grid-template-columns: 1fr;
         height:max-content;
@@ -79,13 +81,13 @@
         font-size:12px;
     }
     .one, .three, .five {
-        margin:1rem 8rem 1rem 0;
+        margin:1rem 50% 1rem 0;
     }
     .two, .four, .six {
-        margin:0 0 0 7rem;
+        margin:0 0 0 50%;
     }
     .experience__content {
-        padding:auto;
+        padding:0 10%;
         display: block;
     }
     h4{
@@ -94,9 +96,7 @@
     h2{
         margin:0 !important;
     }
-    .experience__content {
-        gap: 1.2rem;
-    }
+
     .ex-icon {
         font-size: .8rem;
     }
@@ -107,16 +107,14 @@
     .experience__backend h3{
         margin:0 !important;
         padding: 0;
-        font-size: 16px !important; 
+        font-size: 16px !important;  
     }
-    .first, .third, .fifth {
-        margin:1rem 8rem 1rem 0;
-    }
+    .first, .third, .fifth { 
+    margin:1rem 50% 1rem 0;
+         
+        
+    } 
     .second, .fourth, .sixth {
-        margin:0 0 0 7rem;
-    }
-
-    .experience__container a {
-        margin: 1rem !important;
-    }
+        margin:0 0 0 50%;
+    } 
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "../style/Portfolio.css";
 import { FaGithub } from "react-icons/fa";
 import { FaChrome } from "react-icons/fa";
@@ -90,10 +91,10 @@ const Portfolio = () => {
         ))}
 
       </div>
-      <a href="https://github.com/javyer12?tab=repositories"
+      <Link to="/design"
         target="_blank"
         rel=" noopener noreferrer"
-        className="btn more_project">More Porjects</a>
+        className="btn more_project">More Porjects</Link>
     </section>
   );
 };

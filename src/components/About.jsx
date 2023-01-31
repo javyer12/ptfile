@@ -31,13 +31,17 @@ const About = () => {
             <ul>
               <li><p><MdLocationOn /></p></li>
               <li><p>El Progreso, Yoro, Honduras</p></li>
-              <li>
+              <div className="lang-field">
                 <div className="languages">
-                  <img src={spn} alt="Spanish" />
+                  <p> En</p>
                   <img src={eng} alt="English" />
                 </div>
-                <p>Spanish || English</p>
-              </li>
+                <div className="languages">
+                  <p>Es</p>
+                  <img src={spn} alt="Spanish" />
+                </div>
+
+              </div>
             </ul>
           </div>
           <div className='btn_about-me'>

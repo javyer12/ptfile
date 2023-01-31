@@ -6,40 +6,40 @@ header {
 
 .header__contianer {
     background-color: var(--white);
-    z-index:3;
     height: 100%;
     display: grid;
     grid-template-areas: 
-    "name photo"
+    "name"
     "head cta";
-    grid-template-rows: .5fr 1fr;
-    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr .5fr;
+    grid-template-columns:1fr;
     margin-top: 0;
-    padding-top: 2rem;
-    position: relative;
-    text-align: center;
+    padding-top: 2rem; 
+    /* position: relative; */
+    align-content: center;
     width: 100vw !important;
-    
 }
-
-.header__contianer > .one {
-    grid-area: name;
-  }
-  .header__contianer  > .two {
-    grid-area: photo;
-  }
-  .header__contianer > .three {
-    grid-area: head;
-  }
-  .header__contianer > .four {
-    grid-area: cta;
-  }
-
 .header__info {
-    padding: 4rem 0 0 2rem;
+    margin: auto;
+    align-items: center;
+    animation-duration: 6s;
+    animation-name: welcome;
 }
-.header__info h1,h3,h4{
-    font-size: 3em;
+@keyframes welcome {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.header__info h3 {
+    text-align: center;
+    font-size: 2rem !important;
+}
+.header__info h1,h4{
+    font-size: 3rem;
+    text-align: center;
     transition-property: font-size;
     transition-duration: 4s;
     transition-delay: 3s;
@@ -118,56 +118,36 @@ header {
 
 /* media queries   */
 @media screen and (max-width:725px) {
-    
-.header__contianer > .one {
-    grid-area: name;
-  }
-  .header__contianer  > .two {
-   visibility: hidden;
-  }
-  .header__contianer > .three {
-    grid-area: head;
-  }
-  .header__contianer > .four {
-    grid-area: cta;
-  }
-
-
       .header__contianer {
         background-color: var(--white);
-        height: 70%;
+        height: fit-content;
         display: grid; 
          grid-template-areas: 
         "name"
         "head cta";
         grid-template-rows: .5fr 1fr;
-        margin: auto;
         padding-top: 2rem;
         position: relative;
         text-align: center;
         width: 100vw !important;
-        
     }
     .header__info  {
-        margin:auto !important;
-        margin-top:-5rem;
+        margin: 3rem auto !important;
     }
     .header__info h1,h3,h4{
         text-align: center;
         font-size: 1.5em;
     }
     .cta {
-        margin: 1rem;
+        margin: 2.5rem 30%;
         display: flex;
+        gap: 1.2rem;
         justify-content: center;
-        gap: 1rem;
     }
-
     .cta a {
         font-size: .3rem;
         text-align: center;
     }
-   
     .header__social {
         position: fixed !important;
         width: 5%;

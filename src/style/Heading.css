@@ -9,7 +9,7 @@
         height: 6%;
         position: fixed;
         width: 100vw;
-        z-index: 2; 
+        z-index: 4;
 }
 
 .heading__img {
