@@ -6,9 +6,7 @@ import { FaChrome } from "react-icons/fa";
 import portfolio1 from "../material/green.png";
 import portfolio2 from "../material/wanda.png";
 import portfolio3 from "../material/to-do.png";
-import portfolio4 from "../material/ask-for-help.png";
-import portfolio5 from "../material/fox.png";
-import portfolio6 from "../material/github.png";
+
 
 // const URL_REPO = "https://api.github.com/users/javyer12/repos"
 const portfolios = [
@@ -33,27 +31,6 @@ const portfolios = [
     githubLink: "https://github.com/javyer12/to-doList",
     demoLink: "https://todoyourlist.netlify.app/",
   },
-  {
-    id: 4,
-    portfolioName: " Ask for help",
-    images: portfolio4,
-    githubLink: "https://github.com/javyer12/hapi",
-    demoLink: "https://github.com/javyer12",
-  },
-  {
-    id: 5,
-    portfolioName: " FOX LAZY",
-    images: portfolio5,
-    githubLink: "https://github.com/javyer12/lazy_loading",
-    demoLink: "https://lovingfoxes.netlify.app/",
-  },
-  {
-    id: 6,
-    portfolioName: " Github Query",
-    images: portfolio6,
-    githubLink: "https://github.com/javyer12/seek-github",
-    demoLink: "https://github.com/javyer12",
-  },
 ];
 const Portfolio = () => {
   return (
@@ -68,33 +45,37 @@ const Portfolio = () => {
             </div>
             <div className="portfolio__item-cta">
               <h2 className="portfolio-title">{item.portfolioName.toLocaleUpperCase()}</h2>
-              <a
-                target="_blank"
-                rel=" noopener noreferrer"
-                href={item.githubLink}
-                className="portfolio_links"
-              >
-                <FaGithub className="project-icon" /> {" "}
-                Github
-              </a>
-              <a
-                href={item.demoLink}
-                className="portfolio_links"
-                target="_blank"
-                rel=" noopener noreferrer"
-              >
-                <FaChrome className="project-icon" /> {" "}
-                Demo Project
-              </a>
+              <div className="item__links">
+                <a
+                  target="_blank"
+                  rel=" noopener noreferrer"
+                  href={item.githubLink}
+                  className="portfolio_links"
+                >
+                  <FaGithub className="project-icon" /> {" "}
+                  Github
+                </a>
+                <a
+                  href={item.demoLink}
+                  className="portfolio_links"
+                  target="_blank"
+                  rel=" noopener noreferrer"
+                >
+                  <FaChrome className="project-icon" /> {" "}
+                  Demo Project
+                </a>
+              </div>
             </div>
           </article>
         ))}
 
       </div>
-      <Link to="/design"
-        target="_blank"
-        rel=" noopener noreferrer"
-        className="btn more_project">More Porjects</Link>
+      <div className='more__projects-btn'>
+        <Link to="/more-portfolio"
+          target="_blank"
+          rel=" noopener noreferrer"
+          className="btn more-project">More Porjects</Link>
+      </div>
     </section>
   );
 };

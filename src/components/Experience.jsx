@@ -105,10 +105,12 @@ const Experience = () => {
           </div>
         </div>
       </div>
-      <a href="https://platzi.com/p/franmurillo/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="btn">More about my Experience</a>
+      <div className='experience-botton'>
+        <a href="https://platzi.com/p/franmurillo/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn">More about my Experience</a>
+      </div>
     </section>
   );
 };

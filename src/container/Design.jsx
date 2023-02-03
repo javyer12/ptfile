@@ -57,7 +57,10 @@ export default function Design() {
             <div className='image-tools'>
                 {tools.map(item => (
                     <li key={item.id}>
-                        <RoundedImages images={item.url} title={item.title} />
+                        <RoundedImages
+                            images={item.url}
+                            title={item.title}
+                            classname="coding" />
                     </li>
                 ))}
             </div>

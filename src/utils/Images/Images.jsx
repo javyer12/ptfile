@@ -10,7 +10,7 @@ export function FullImages(props) {
 }
 export function RoundedImages(props) {
   return (
-    <div className='rounded-image'>
+    <div className={`rounded-image ${props.classname}`}>
       <img src={props.images} alt={props.name} />
     </div>
   )

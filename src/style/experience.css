@@ -1,8 +1,15 @@
 .ex-icon {
     color: var(--green-color);
 }
-#experience a {
-   margin-left:45% !important;
+.experience-botton {
+    display:flex ;
+    width:100%;
+    justify-content: space-around;
+    margin: 1%;
+}
+.experience-botton a  {
+    background-color: black;
+    color:white;
 }
 .experience__container {
     padding-top:0 !important;
@@ -48,10 +55,12 @@
 /* media queries */
 
 @media screen and (max-width:725px) {
-    #experience a {
-        margin-left:25% !important;
-        margin:1%;
-     }
+   
+    .experience-botton a {
+        font-size:.5rem;
+        background: rgba(12, 213, 99, 0.928);
+    } 
+ 
     .experience__container {
         grid-template-columns: 1fr;
         height:max-content;
@@ -100,8 +109,6 @@
     .ex-icon {
         font-size: .8rem;
     }
-
-
 
     /* back */
     .experience__backend h3{

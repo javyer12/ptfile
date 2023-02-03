@@ -1,4 +1,7 @@
 /* about me ---------------- -- */
+#about {
+    background-color: rgba(216, 216, 89, 0.115);
+}
 .about__container {
     display: grid;
     grid-template-columns: 35% 60%;
@@ -209,6 +212,8 @@ h6 {
 
     .btn_about-me a {
         font-size: 10px;
+        background: rgba(12, 213, 99, 0.928);
+        color:black;
     }
 
     .about_list ul li p {

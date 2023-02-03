@@ -1,3 +1,6 @@
+section {
+    margin: 0 !important;
+}
 .coding_title {
     margin:4rem;
 }
@@ -5,5 +8,27 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, 250px);
     width:100vw;
-    margin:3rem;
+}
+.image-tools li {
+    margin:auto;
+}
+
+@media screen and (max-width:525px){
+    .image-tools{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width:100vw;
+    }
+    h1{
+        font-size: 25px !important;
+        text-align: center;
+    }
+    /* class props para el componente image */
+    .coding {
+        width: 6rem !important;
+        aspect-ratio: 1/1;
+        overflow: hidden;
+        border-radius:50%;
+        border-left-style: ridge;
+    } 
 }

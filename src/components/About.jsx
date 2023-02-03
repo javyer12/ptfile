@@ -1,14 +1,10 @@
 import React from 'react';
 import "../style/About.css";
 import { MdLocationOn } from 'react-icons/md'
-import { IoIosCodeWorking } from "react-icons/io";
-import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import me from '../material/me.png'
 import eng from '../material/eng.png';
 import spn from '../material/spn.png';
 
-import { FaLanguage } from "react-icons/fa";
-import { IoMdDoneAll } from "react-icons/io";
 
 
 const About = () => {

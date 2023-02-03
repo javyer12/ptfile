@@ -4,7 +4,6 @@ import "../style/Nav.css";
 import { RiHomeHeartFill } from "react-icons/ri";
 import { BiUserCircle } from "react-icons/bi";
 import { BsFillJournalBookmarkFill } from "react-icons/bs";
-import { FcServices } from "react-icons/fc";
 import { BiMessageRoundedCheck } from "react-icons/bi";
 
 const Nav = () => {

@@ -1,5 +1,4 @@
 import React from 'react';
-import brand from "../material/py-best.png";
 import fg from "../material/fg.png";
 import "../style/Footer.css";
 const Footer = () => {
@@ -19,9 +18,6 @@ const Footer = () => {
                     href="https://dev.to/javyer12">My Profile in Dev To</a></li>
                 <li><a target="_blank" rel="noopener noreferrer" href="https://replit.com/@javyer">My Profile in Replit</a></li>
             </ul>
-            {/* <div className="right__footer">
-                <img src={fg} alt='my logo' />
-            </div> */}
         </footer>
     )
 }
