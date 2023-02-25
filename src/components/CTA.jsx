@@ -11,7 +11,7 @@ const CTA = () => {
         className="btn"
         target="_blank"
         rel="noopener noreferrer"
-        href="https://drive.google.com/file/d/1OTdoXYhdaEldDrPEIO8lF2r41r3I1H-c/view?usp=sharing"
+        href="https://www.canva.com/design/DAFS3vyQgWU/uD9bqDSt6j9qvsmIIshHxw/view?utm_content=DAFS3vyQgWU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
       >
         Watch my CV
       </a>

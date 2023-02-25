@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { BsCodeSlash } from "react-icons/bs";
 import { SiAltiumdesigner } from "react-icons/si";
 import { GiHamburgerMenu } from "react-icons/gi";
+
+
 import "../style/Heading.css";
 
 function Heading() {
@@ -23,6 +25,7 @@ function Heading() {
                                 </Link>
                         </div>
                 </div>
+
         )
 }
 

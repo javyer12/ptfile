@@ -16,11 +16,12 @@
 }
 
 .about__me-img {
-    height: 15vh;
+    height: 20vh;
     margin: 0 4rem;
 }
 
 .about__me-img img {
+     
     height: auto !important;
 }
 

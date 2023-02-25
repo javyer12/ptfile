@@ -1,7 +1,7 @@
 import React from 'react';
 import "../style/About.css";
 import { MdLocationOn } from 'react-icons/md'
-import me from '../material/me.png'
+import me from '../material/me1.png'
 import eng from '../material/eng.png';
 import spn from '../material/spn.png';
 

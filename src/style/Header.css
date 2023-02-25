@@ -24,7 +24,7 @@ header {
     animation-name: welcome;
 }
 .header__info {
-    margin: auto; 
+    margin-left: -40%; 
     align-items: center;
     animation-fill-mode: forwards;
     animation: welcome 6s  2s  come-out;
@@ -53,7 +53,7 @@ header {
 
 /* ||CTA||  */
 .cta {
-    margin-top: 2.5rem;
+    margin-left:-40%;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -120,6 +120,33 @@ header {
     text-decoration: none;
 }
 
+
+.header__skills{
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    right: 14rem;
+    top: 13rem;
+    z-index: 4;
+    background: rgb(179, 178, 178);
+    width: 150px;
+    height:250px;
+    border-radius: 2%;
+    padding-top:3.3rem;
+    /* backdrop-filter: blur(15px); */
+ }
+ .header__skills div {
+    width: 250px !important;
+    margin:.2rem 0;
+    background-color: rgb(54, 55, 56);
+ }
+ .header__skills div h3 {
+    text-align: center;
+    color:rgba(241, 234, 234, 0.808)
+ }
 /* media queries   */
 @media screen and (max-width:725px) {
       .header__contianer {

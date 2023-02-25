@@ -53,6 +53,14 @@ function Header() {
             )}
           </a>
         </div>
+
+
+        <div className="header__skills">
+          <div><h3>JavaScript | React JS</h3></div>
+          <div><h3>C# | .NET</h3></div>
+          <div><h3>PotsgreSQL</h3></div>
+        </div>
+
       </div>
     </header>
   );
